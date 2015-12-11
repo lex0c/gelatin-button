@@ -1,0 +1,72 @@
+body {
+  margin: auto;
+  text-align: center;
+  background-color: #d2d2d2; }
+
+.gelatin-btn {
+  display: inline-block;
+  margin: 8em;
+  padding: .6em;
+  font-family: Arial;
+  font-size: 26px;
+  font-size: 1.625rem;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  background-color: #fe4365;
+  -webkit-box-shadow: 0 0 0 -2px #d2d2d2, 0 0 0 -1px #fe4365;
+  -moz-box-shadow: 0 0 0 -2px #d2d2d2, 0 0 0 -1px #fe4365;
+  -ms-box-shadow: 0 0 0 -2px #d2d2d2, 0 0 0 -1px #fe4365;
+  -o-box-shadow: 0 0 0 -2px #d2d2d2, 0 0 0 -1px #fe4365;
+  box-shadow: 0 0 0 -2px #d2d2d2, 0 0 0 -1px #fe4365;
+  -webkit-transition: -webkit-box-shadow .3s;
+  -moz-transition: -moz-box-shadow .3s;
+  ms-transition: -ms-box-shadow .3s;
+  o-transition: -o-box-shadow .3s;
+  transition: box-shadow .3s; }
+  .gelatin-btn:hover, .gelatin-btn:focus {
+    -webkit-box-shadow: 0 0 0 2px #d2d2d2, 0 0 0 4px #ff0464;
+    -moz-box-shadow: 0 0 0 2px #d2d2d2, 0 0 0 4px #ff0464;
+    -ms-box-shadow: 0 0 0 2px #d2d2d2, 0 0 0 4px #ff0464;
+    -o-box-shadow: 0 0 0 2px #d2d2d2, 0 0 0 4px #ff0464;
+    box-shadow: 0 0 0 2px #d2d2d2, 0 0 0 4px #ff0464;
+    -webkit-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    -moz-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    -ms-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    -o-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    -webkit-animation: gelatine 0.5s 1;
+    -moz-animation: gelatine 0.5s 1;
+    -ms-animation: gelatine 0.5s 1;
+    -o-animation: gelatine 0.5s 1;
+    animation: gelatine 0.5s 1; }
+
+@keyframes gelatine {
+  from,to {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1); }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    -moz-transform: scale(0.9, 1.1);
+    -ms-transform: scale(0.9, 1.1);
+    -o-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1); }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    -moz-transform: scale(1.1, 0.9);
+    -ms-transform: scale(1.1, 0.9);
+    -o-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9); }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    -moz-transform: scale(0.95, 1.05);
+    -ms-transform: scale(0.95, 1.05);
+    -o-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05); } }
+
+/*# sourceMappingURL=style.css.map */
