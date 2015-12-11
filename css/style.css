@@ -23,8 +23,8 @@ body {
   box-shadow: 0 0 0 -2px #d2d2d2, 0 0 0 -1px #fe4365;
   -webkit-transition: -webkit-box-shadow .3s;
   -moz-transition: -moz-box-shadow .3s;
-  ms-transition: -ms-box-shadow .3s;
-  o-transition: -o-box-shadow .3s;
+  -ms-transition: -ms-box-shadow .3s;
+  -o-transition: -o-box-shadow .3s;
   transition: box-shadow .3s; }
   .gelatin-btn:hover, .gelatin-btn:focus {
     -webkit-box-shadow: 0 0 0 2px #d2d2d2, 0 0 0 4px #ff0464;
@@ -44,7 +44,7 @@ body {
     animation: gelatine 0.5s 1; }
 
 @keyframes gelatine {
-  from,to {
+  from, to {
     -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
